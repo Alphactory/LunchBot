@@ -7,7 +7,7 @@ app = flask.Flask(__name__)
 @app.route('/')
 def index():
     return """
-    Lunch Form
+    <b>Lunch Form</b>
     <br>
     <form  action="/api" method="POST">
     Name:<br>
